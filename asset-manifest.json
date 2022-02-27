@@ -7,7 +7,7 @@
     "main.eacb95f2.js.map": "/mory2547/Project/static/js/main.eacb95f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fbe4077.css",
-    "static/js/main.eacb95f2.js"
+    "./static/css/main.0fbe4077.css",
+    "./static/js/main.eacb95f2.js"
   ]
 }
