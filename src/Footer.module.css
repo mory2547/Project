@@ -1,0 +1,66 @@
+.head {
+  height: 350px;
+}
+.information {
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 13px;
+  color: grey;
+}
+.information1 {
+  margin-left: 20px;
+}
+.information1 > li {
+  margin-bottom: 10px;
+}
+.information1 > li:first-child {
+  color: black;
+}
+.information2 {
+  margin-right: 20px;
+}
+.information2 > li {
+  margin-bottom: 8px;
+}
+.information2 > li:first-child {
+  color: black;
+}
+.information2 > li > button {
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bottom {
+  border-top: 2px solid grey;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+.bottom > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bottom > ul > li {
+  font-size: 13px;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: grey;
+}
+div > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

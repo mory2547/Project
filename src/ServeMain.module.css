@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.mainImg {
+  width: 40%;
+  height: 17%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.mainInfo {
+  width: 37%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.mainInfo::-webkit-scrollbar {
+  display: none;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid #b5bec5;
+}
+.intro1 > ul > li:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.intro1 > ul > li:last-child {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: grey;
+}
+.intro2 {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
+.intro2 > ul > li:last-child {
+  font-size: 10px;
+  float: right;
+  color: red;
+}
+.button {
+  border: 3px solid black;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 20px;
+  height: 65px;
+  line-height: 65px;
+}
+.menu {
+  margin-top: 5px;
+  border-bottom: 3px solid #b5bec5;
+  margin-bottom: 15px;
+}
+.menu > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+}
+.menu > div > div:last-child {
+  font-size: 12px;
+}
+.menu > ul {
+  margin-bottom: 15px;
+}
+.menu > ul > li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  color: grey;
+}
